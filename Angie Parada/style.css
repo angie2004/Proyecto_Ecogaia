@@ -1,0 +1,20 @@
+.inicio{
+    background-image: url(paisaje.jpg);
+    height: 200px
+}
+
+.otro{
+    background-color: rgba(255, 255, 255, 0.514);
+    height: 200px;
+}
+
+.otro p{
+    font-size: 50px;    
+    padding: 70px;
+    margin-left: 525px;
+}
+
+.menu{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
