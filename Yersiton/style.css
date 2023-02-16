@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+/*     font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+/*Header*/
+header{
+    background-color: #1bc6158f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.log{
+    justify-content: space-around;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+.log img{
+    width: 40%;
+    padding: 10px;
+}
+.botones{
+    justify-content: space-around; 
+    display: flex;
+    width: 70%;
+    padding: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/*Contenido*/
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.order{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 65%;
+    
+}
+
+.caja1{
+width: 40%;
+background-color: blueviolet;
+}
+
+.caja2{
+    width: 40%;
+    background-color: blueviolet;
+}
+.caja2 img{
+    width: 100%;
+    object-fit: fill;
+}
+.caja3{
+    width: 40%;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+.caja3 img{
+    width: 20%;
+}
+.caja4{
+    width: 40%;
+    background-color: blueviolet;
+    margin-top: 20px;
+
+}
+.caja4 img{
+    width: 20%;
+}
+.caja5{
+    width: 30%;
+    background-color: blueviolet;
+}
+.caja5 img{
+    width: 50%;
+}
+.caja6{
+    width: 50%;
+}
+.caja6 img{
+    width: 50%;
+}
