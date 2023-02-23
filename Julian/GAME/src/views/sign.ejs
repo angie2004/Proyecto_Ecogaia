@@ -32,14 +32,12 @@
         var pass = document.getElementById('pass').value
         var img = document.getElementById('img').value
         
-        fetch('http://localhost:3000/index',
-        {
-            method:"POST",
-            headers:{
-                'Content-Type':'application/json'
-            },
-            body: "hola"
-        })
+        const user = {
+          nombre,
+          correo,
+          pass,
+          img
+        }
     }
     </script>
     <form action="/index" method="post" enctype="multipart/form-data">
