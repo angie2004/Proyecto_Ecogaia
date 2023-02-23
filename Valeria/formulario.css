@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #1e6ec9;
+}
+li{
+	padding: 10px;
+	list-style: none;
+}
+img{
+	max-width: 40%;
+	max-height: 40%;
+}
+body {
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/04/21155209/medio-ambiente.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-content: center; 
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #dad4d4d0;
+	box-shadow: rgba(73, 67, 67, 0.2) 0px 2px 8px 0px;
+	border-radius: 8px;
+	width: 900px;
+	margin-top: 2%;
+}
+.container form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8px;
+	border-radius: 10px;
+}
+.form-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 2px;
+    
+}
+.form-item label {
+	color: #000000;
+}
+.form-item input {
+	width: 340px;
+	height: 40px;
+	border-radius: 4px;
+	border-color: #0e0e0e;	
+    background-color: rgb(255, 255, 255);
+}
+.form-item select {
+	width: 340px;
+	height: 40px;
+	border-radius: 4px;
+	border-color: #6c757d;	
+}
+.form-item input[type=submit] {
+	background-color: aliceblue;
+	width: 120px;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	margin: 24px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.form-item input[placeholder] {
+	padding: 12px;
+	outline-color: rgb(0, 0, 0);
+	border: 1px solid #6c757d;
+    
+}
+.form-item select {
+	padding: 12px;
+	outline-color: rgb(2, 2, 2);
+	border: 1px solid #6c757d;
+}
