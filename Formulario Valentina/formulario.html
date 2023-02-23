@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Taller JavaScript</title>
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <header>
+        <nav>
+            <img src="images/Logo final.png" alt="">
+        </nav>
+    </header>
+    <hr>
+
+    <div class="icono">
+        <img src="images/compra.png" alt="">
+    </div>
+    
+    <form action="#">
+        <div class="cnt">
+            <div class="form-item">
+                <label for="">Digite el nombre del articulo</label>
+                <input type="text" placeholder="Producto" id="nombre">
+            </div>
+            <div class="form-item">
+                <label for="">Digite el precio del articulo</label>
+                <input type="number" placeholder="Precio" id="art">
+            </div>
+            <div class="form-item">
+                <label for="">Digite la cantidad de articulos</label>
+                <input type="number" placeholder="Cantidad" id="cant">
+            </div>
+            
+            <div class="form-item">
+                <input type="button" id="enviar" value="Enviar" onclick="capturar()">
+            </div>
+        </div>
+        
+    </form>
+
+    <div class="result">
+        <h3>Total de la compra</h3>
+        <div id="resultado"></div>
+    </div>
+    
+</body>
+</html>
